@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+run_mode   1 is only gateway service  2 is application to http/https service 
+ip_v       ipv4 =4  and ipv6 = 6 
+tcp_port :: private protocal 0 is not to use
+http_port   web port  0 is not to use
+https_port  https port  0 is not to use
+thread_events   application to handle, default is 4
+queue_capacity  capacity of queue   0 not to be limit
+-->
+
+<item>
+  <config>
+    <run_mode>1</run_mode>
+    <ip_v>4</ip_v>
+    <tcp_port>20201</tcp_port>
+    <http_port>8001</http_port>
+    <https_port>4431</https_port> 
+    <thread_events>1</thread_events>
+    <queue_capacity>5000</queue_capacity>
+  </config>  
+</item>

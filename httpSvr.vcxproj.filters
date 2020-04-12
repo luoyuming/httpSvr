@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\funDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\log_severity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\raw_logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\stl_logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\vlog_is_on.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\error\en.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\error\error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\biginteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\diyfp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\dtoa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\ieee754.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\itoa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\meta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\pow10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\regex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\strfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\strtod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\internal\swap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\msinttypes\inttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\msinttypes\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\allocators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\document.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\document-wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\encodedstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\encodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\filereadstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\filewritestream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\fwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\istreamwrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\memorybuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\memorystream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\ostreamwrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\pointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\prettywriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\rapidjson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\schema.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\stringbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\writer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\handleXml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msgDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\convertSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinyxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\common\constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\common\context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\common\dictionary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\common\platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\common\transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\common\version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\dec\bit_reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\dec\huffman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\dec\prefix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\dec\state.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\backward_references.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\backward_references_hq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\backward_references_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\bit_cost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\bit_cost_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\block_encoder_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\block_splitter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\block_splitter_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\brotli_bit_stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\cluster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\cluster_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\compress_fragment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\compress_fragment_two_pass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\dictionary_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\encoder_dict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\entropy_encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\entropy_encode_static.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\fast_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\find_match_length.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash_composite_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash_forgetful_chain_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash_longest_match_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash_longest_match_quickly_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash_longest_match64_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash_rolling_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\hash_to_binary_tree_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\histogram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\histogram_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\literal_cost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\metablock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\metablock_inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\params.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\prefix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\quality.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\ringbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\static_dict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\static_dict_lut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\utf8_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\enc\write_bits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\include\brotli\decode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\include\brotli\encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\include\brotli\port.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotli\include\brotli\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\handleJson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\configMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsonMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\__DECC_INCLUDE_EPILOGUE.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\__DECC_INCLUDE_PROLOGUE.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\aes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asn1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asn1_mac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asn1err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asn1t.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\async.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asyncerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\bio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\bioerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\blowfish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\bn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\bnerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\buffererr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\camellia.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\cast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\cmac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\cms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\cmserr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\comp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\comperr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\conf_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\conferr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\cryptoerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\cterr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\des.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dherr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dsaerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dtls1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\e_os2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ebcdic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ecdh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ecdsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ecerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\engineerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\evp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\evperr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\hmac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\idea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\kdf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\kdferr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\lhash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\md2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\md4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\mdc2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\modes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\obj_mac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\objects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\objectserr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ocsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ocsperr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\opensslconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\opensslv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ossl_typ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pem2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pemerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pkcs7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pkcs7err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pkcs12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pkcs12err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rand_drbg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\randerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rc2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rc4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rc5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ripemd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rsaerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\safestack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\seed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\sha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\srp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\srtp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\sslerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\store.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\storeerr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\symhacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\tls1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\tserr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\txt_db.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\uierr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\whrlpool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509_vfy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509v3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509v3err.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\handleMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socketService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\taskQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dispatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asynFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brotliMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gzipCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zlib\zconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zlib\zlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\codeDeflate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\compressMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\contentTypeMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sslParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\faceCGI_C.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fastcgi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fcgi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h2Session.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h2Frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h2Mng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h2pack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h2huffman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h2Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h2tables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handleXml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\convertSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\common\dictionary.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\common\transform.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\dec\bit_reader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\dec\decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\dec\huffman.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\dec\state.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\backward_references.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\backward_references_hq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\bit_cost.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\block_splitter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\brotli_bit_stream.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\cluster.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\compress_fragment.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\compress_fragment_two_pass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\dictionary_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\encoder_dict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\entropy_encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\histogram.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\literal_cost.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\memory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\metablock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\static_dict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotli\enc\utf8_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handleJson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\configMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsonMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\applink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\handleMsg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socketService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\taskQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dispatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asynFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brotliMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gzipCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\codeDeflate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compressMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\contentTypeMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sslParam.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fcgi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\faceCGI_C.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\h2Session.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\h2Mng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\h2pack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\h2huffman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\run.sh" />
+    <None Include="src\service.json" />
+    <None Include="src\brotli\common\dictionary.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="src\50x.html" />
+    <None Include="src\index.html" />
+    <None Include="win_lib\libcrypto-1_1.dll" />
+    <None Include="win_lib\libglog.dll" />
+    <None Include="win_lib\libssl-1_1.dll" />
+    <None Include="win_lib\libz.dll" />
+    <None Include="win_lib\zlib.dll" />
+    <None Include="src\test.php" />
+    <None Include="src\operation.php" />
+    <None Include="src\gen.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="src\system.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="win_lib\libcrypto.lib" />
+    <Library Include="win_lib\libcrypto32MD.lib" />
+    <Library Include="win_lib\libglog.lib" />
+    <Library Include="win_lib\libssl.lib" />
+    <Library Include="win_lib\libssl32MD.lib" />
+    <Library Include="win_lib\openssl.lib" />
+    <Library Include="win_lib\zlib.lib" />
+  </ItemGroup>
+</Project>
