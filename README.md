@@ -28,6 +28,7 @@ linux和window  (epoll/iocp) 完全异步IO读写文件
  如有软件商务合作，请联系统罗裕明  电话;13925236752 
 
  if you want to contract for bussiness, please call 13925236752  Yuming Luo from  mainland china
+ qq:12797202  wechat: 13925236752
 
 
 
