@@ -9,10 +9,6 @@ cp ../*.xml		./
 cp ../*.json	./
 cp ../*.html	./
 
-mkdir -p wwwroot
-cp -r ../../wwwroot/*  ./wwwroot/
-mkdir -p www.qytmail.com
-cp -r ../../www.qytmail.com/*  ./www.qytmail.com/
 
 cp  ../*.php  ./
 chmod +777  *.php

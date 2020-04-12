@@ -16,7 +16,7 @@ openssl version  1.1.1e
 软件说明 小
 完全支持http1.1 http2  https/tls1.3
 linux和window  (epoll/iocp) 完全异步IO读写文件
-支持cgi 和fcgi 
+支持cgi 和fcgi wsgi
 支持 br ,gzip deflate 编解码
 支持 多域名访问sni
 多线程处理业务
@@ -27,10 +27,9 @@ linux和window  (epoll/iocp) 完全异步IO读写文件
 
  如有软件商务合作，请联系统罗裕明  电话;13925236752 
 
- qq:12797202 wechat: 13925236752
+ qq:12797202   wechat:13925236752
 
  if you want to contract for bussiness, please call 13925236752  Yuming Luo from  mainland china
- qq:12797202  wechat: 13925236752
 
 
 
