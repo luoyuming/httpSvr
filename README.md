@@ -1,4 +1,4 @@
-# httpSvr
+# httpSvr 人脸识别智能平台服务器   
 http1.1  https http2 all of the version are surported  by the software
 
 

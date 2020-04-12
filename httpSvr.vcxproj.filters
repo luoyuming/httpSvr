@@ -15,7 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
     <Text Include="src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -926,6 +925,7 @@
     <None Include="src\test.php" />
     <None Include="src\operation.php" />
     <None Include="src\gen.sh" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="src\system.xml" />
